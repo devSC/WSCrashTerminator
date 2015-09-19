@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0C762D1BAD7E0200F7109E /* NSObject+Swizz.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0C762C1BAD7E0200F7109E /* NSObject+Swizz.m */; settings = {ASSET_TAGS = (); }; };
+		FE0C76301BAD82A500F7109E /* UIViewController+Swizz.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0C762F1BAD82A500F7109E /* UIViewController+Swizz.m */; settings = {ASSET_TAGS = (); }; };
+		FE0C76331BAD841400F7109E /* NSNull+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0C76321BAD841400F7109E /* NSNull+Hook.m */; settings = {ASSET_TAGS = (); }; };
+		FE0C763C1BAD86F500F7109E /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0C763B1BAD86F500F7109E /* Aspects.m */; settings = {ASSET_TAGS = (); }; };
+		FE0C763F1BAD89FA00F7109E /* NSDictionary+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0C763E1BAD89FA00F7109E /* NSDictionary+Hook.m */; settings = {ASSET_TAGS = (); }; };
+		FE0C76421BAD8EDE00F7109E /* NSNumber+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0C76411BAD8EDE00F7109E /* NSNumber+hook.m */; settings = {ASSET_TAGS = (); }; };
+		FE0C76451BAD8FDA00F7109E /* NSArray+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0C76441BAD8FDA00F7109E /* NSArray+Hook.m */; settings = {ASSET_TAGS = (); }; };
+		FE8BA7C71BAD72B300FDE57B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8BA7C61BAD72B300FDE57B /* main.m */; };
+		FE8BA7CA1BAD72B300FDE57B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8BA7C91BAD72B300FDE57B /* AppDelegate.m */; };
+		FE8BA7CD1BAD72B300FDE57B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8BA7CC1BAD72B300FDE57B /* ViewController.m */; };
+		FE8BA7D01BAD72B300FDE57B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8BA7CE1BAD72B300FDE57B /* Main.storyboard */; };
+		FE8BA7D21BAD72B300FDE57B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8BA7D11BAD72B300FDE57B /* Assets.xcassets */; };
+		FE8BA7D51BAD72B300FDE57B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8BA7D31BAD72B300FDE57B /* LaunchScreen.storyboard */; };
+		FE8BA7E01BAD72B300FDE57B /* WSCrashTerminator_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8BA7DF1BAD72B300FDE57B /* WSCrashTerminator_DemoTests.m */; };
+		FE8BA7EF1BAD735B00FDE57B /* NSMutableDictionary+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8BA7EE1BAD735B00FDE57B /* NSMutableDictionary+Hook.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE8BA7DC1BAD72B300FDE57B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE8BA7BA1BAD72B300FDE57B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8BA7C11BAD72B300FDE57B;
+			remoteInfo = "WSCrashTerminator-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE0C762B1BAD7E0200F7109E /* NSObject+Swizz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizz.h"; sourceTree = "<group>"; };
+		FE0C762C1BAD7E0200F7109E /* NSObject+Swizz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizz.m"; sourceTree = "<group>"; };
+		FE0C762E1BAD82A500F7109E /* UIViewController+Swizz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizz.h"; sourceTree = "<group>"; };
+		FE0C762F1BAD82A500F7109E /* UIViewController+Swizz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizz.m"; sourceTree = "<group>"; };
+		FE0C76311BAD841400F7109E /* NSNull+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Hook.h"; sourceTree = "<group>"; };
+		FE0C76321BAD841400F7109E /* NSNull+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Hook.m"; sourceTree = "<group>"; };
+		FE0C763A1BAD86F500F7109E /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		FE0C763B1BAD86F500F7109E /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		FE0C763D1BAD89FA00F7109E /* NSDictionary+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Hook.h"; sourceTree = "<group>"; };
+		FE0C763E1BAD89FA00F7109E /* NSDictionary+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Hook.m"; sourceTree = "<group>"; };
+		FE0C76401BAD8EDE00F7109E /* NSNumber+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+hook.h"; sourceTree = "<group>"; };
+		FE0C76411BAD8EDE00F7109E /* NSNumber+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+hook.m"; sourceTree = "<group>"; };
+		FE0C76431BAD8FDA00F7109E /* NSArray+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Hook.h"; sourceTree = "<group>"; };
+		FE0C76441BAD8FDA00F7109E /* NSArray+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Hook.m"; sourceTree = "<group>"; };
+		FE8BA7C21BAD72B300FDE57B /* WSCrashTerminator-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WSCrashTerminator-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8BA7C61BAD72B300FDE57B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE8BA7C81BAD72B300FDE57B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE8BA7C91BAD72B300FDE57B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE8BA7CB1BAD72B300FDE57B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE8BA7CC1BAD72B300FDE57B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE8BA7CF1BAD72B300FDE57B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE8BA7D11BAD72B300FDE57B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE8BA7D41BAD72B300FDE57B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE8BA7D61BAD72B300FDE57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8BA7DB1BAD72B300FDE57B /* WSCrashTerminator-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WSCrashTerminator-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8BA7DF1BAD72B300FDE57B /* WSCrashTerminator_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSCrashTerminator_DemoTests.m; sourceTree = "<group>"; };
+		FE8BA7E11BAD72B300FDE57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8BA7ED1BAD735B00FDE57B /* NSMutableDictionary+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Hook.h"; sourceTree = "<group>"; };
+		FE8BA7EE1BAD735B00FDE57B /* NSMutableDictionary+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Hook.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE8BA7BF1BAD72B300FDE57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8BA7D81BAD72B300FDE57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE8BA7B91BAD72B300FDE57B = {
+			isa = PBXGroup;
+			children = (
+				FE8BA7C41BAD72B300FDE57B /* WSCrashTerminator-Demo */,
+				FE8BA7DE1BAD72B300FDE57B /* WSCrashTerminator-DemoTests */,
+				FE8BA7C31BAD72B300FDE57B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE8BA7C31BAD72B300FDE57B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE8BA7C21BAD72B300FDE57B /* WSCrashTerminator-Demo.app */,
+				FE8BA7DB1BAD72B300FDE57B /* WSCrashTerminator-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE8BA7C41BAD72B300FDE57B /* WSCrashTerminator-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FE0C763A1BAD86F500F7109E /* Aspects.h */,
+				FE0C763B1BAD86F500F7109E /* Aspects.m */,
+				FE8BA7C81BAD72B300FDE57B /* AppDelegate.h */,
+				FE8BA7C91BAD72B300FDE57B /* AppDelegate.m */,
+				FE8BA7CB1BAD72B300FDE57B /* ViewController.h */,
+				FE8BA7CC1BAD72B300FDE57B /* ViewController.m */,
+				FE0C76311BAD841400F7109E /* NSNull+Hook.h */,
+				FE0C76321BAD841400F7109E /* NSNull+Hook.m */,
+				FE0C76401BAD8EDE00F7109E /* NSNumber+hook.h */,
+				FE0C76411BAD8EDE00F7109E /* NSNumber+hook.m */,
+				FE0C76431BAD8FDA00F7109E /* NSArray+Hook.h */,
+				FE0C76441BAD8FDA00F7109E /* NSArray+Hook.m */,
+				FE0C762B1BAD7E0200F7109E /* NSObject+Swizz.h */,
+				FE0C762C1BAD7E0200F7109E /* NSObject+Swizz.m */,
+				FE0C763D1BAD89FA00F7109E /* NSDictionary+Hook.h */,
+				FE0C763E1BAD89FA00F7109E /* NSDictionary+Hook.m */,
+				FE8BA7ED1BAD735B00FDE57B /* NSMutableDictionary+Hook.h */,
+				FE8BA7EE1BAD735B00FDE57B /* NSMutableDictionary+Hook.m */,
+				FE0C762E1BAD82A500F7109E /* UIViewController+Swizz.h */,
+				FE0C762F1BAD82A500F7109E /* UIViewController+Swizz.m */,
+				FE8BA7CE1BAD72B300FDE57B /* Main.storyboard */,
+				FE8BA7D11BAD72B300FDE57B /* Assets.xcassets */,
+				FE8BA7D31BAD72B300FDE57B /* LaunchScreen.storyboard */,
+				FE8BA7D61BAD72B300FDE57B /* Info.plist */,
+				FE8BA7C51BAD72B300FDE57B /* Supporting Files */,
+			);
+			path = "WSCrashTerminator-Demo";
+			sourceTree = "<group>";
+		};
+		FE8BA7C51BAD72B300FDE57B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE8BA7C61BAD72B300FDE57B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE8BA7DE1BAD72B300FDE57B /* WSCrashTerminator-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8BA7DF1BAD72B300FDE57B /* WSCrashTerminator_DemoTests.m */,
+				FE8BA7E11BAD72B300FDE57B /* Info.plist */,
+			);
+			path = "WSCrashTerminator-DemoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE8BA7C11BAD72B300FDE57B /* WSCrashTerminator-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8BA7E41BAD72B300FDE57B /* Build configuration list for PBXNativeTarget "WSCrashTerminator-Demo" */;
+			buildPhases = (
+				FE8BA7BE1BAD72B300FDE57B /* Sources */,
+				FE8BA7BF1BAD72B300FDE57B /* Frameworks */,
+				FE8BA7C01BAD72B300FDE57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WSCrashTerminator-Demo";
+			productName = "WSCrashTerminator-Demo";
+			productReference = FE8BA7C21BAD72B300FDE57B /* WSCrashTerminator-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE8BA7DA1BAD72B300FDE57B /* WSCrashTerminator-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8BA7E71BAD72B300FDE57B /* Build configuration list for PBXNativeTarget "WSCrashTerminator-DemoTests" */;
+			buildPhases = (
+				FE8BA7D71BAD72B300FDE57B /* Sources */,
+				FE8BA7D81BAD72B300FDE57B /* Frameworks */,
+				FE8BA7D91BAD72B300FDE57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE8BA7DD1BAD72B300FDE57B /* PBXTargetDependency */,
+			);
+			name = "WSCrashTerminator-DemoTests";
+			productName = "WSCrashTerminator-DemoTests";
+			productReference = FE8BA7DB1BAD72B300FDE57B /* WSCrashTerminator-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE8BA7BA1BAD72B300FDE57B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Wilson-Yuan";
+				TargetAttributes = {
+					FE8BA7C11BAD72B300FDE57B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FE8BA7DA1BAD72B300FDE57B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FE8BA7C11BAD72B300FDE57B;
+					};
+				};
+			};
+			buildConfigurationList = FE8BA7BD1BAD72B300FDE57B /* Build configuration list for PBXProject "WSCrashTerminator-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE8BA7B91BAD72B300FDE57B;
+			productRefGroup = FE8BA7C31BAD72B300FDE57B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE8BA7C11BAD72B300FDE57B /* WSCrashTerminator-Demo */,
+				FE8BA7DA1BAD72B300FDE57B /* WSCrashTerminator-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE8BA7C01BAD72B300FDE57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8BA7D51BAD72B300FDE57B /* LaunchScreen.storyboard in Resources */,
+				FE8BA7D21BAD72B300FDE57B /* Assets.xcassets in Resources */,
+				FE8BA7D01BAD72B300FDE57B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8BA7D91BAD72B300FDE57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE8BA7BE1BAD72B300FDE57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8BA7CD1BAD72B300FDE57B /* ViewController.m in Sources */,
+				FE0C76451BAD8FDA00F7109E /* NSArray+Hook.m in Sources */,
+				FE8BA7EF1BAD735B00FDE57B /* NSMutableDictionary+Hook.m in Sources */,
+				FE0C762D1BAD7E0200F7109E /* NSObject+Swizz.m in Sources */,
+				FE8BA7CA1BAD72B300FDE57B /* AppDelegate.m in Sources */,
+				FE0C76331BAD841400F7109E /* NSNull+Hook.m in Sources */,
+				FE0C76301BAD82A500F7109E /* UIViewController+Swizz.m in Sources */,
+				FE8BA7C71BAD72B300FDE57B /* main.m in Sources */,
+				FE0C763C1BAD86F500F7109E /* Aspects.m in Sources */,
+				FE0C76421BAD8EDE00F7109E /* NSNumber+hook.m in Sources */,
+				FE0C763F1BAD89FA00F7109E /* NSDictionary+Hook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8BA7D71BAD72B300FDE57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8BA7E01BAD72B300FDE57B /* WSCrashTerminator_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE8BA7DD1BAD72B300FDE57B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE8BA7C11BAD72B300FDE57B /* WSCrashTerminator-Demo */;
+			targetProxy = FE8BA7DC1BAD72B300FDE57B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE8BA7CE1BAD72B300FDE57B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE8BA7CF1BAD72B300FDE57B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE8BA7D31BAD72B300FDE57B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE8BA7D41BAD72B300FDE57B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE8BA7E21BAD72B300FDE57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE8BA7E31BAD72B300FDE57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE8BA7E51BAD72B300FDE57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WSCrashTerminator-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wilson.WSCrashTerminator-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE8BA7E61BAD72B300FDE57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WSCrashTerminator-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wilson.WSCrashTerminator-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE8BA7E81BAD72B300FDE57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WSCrashTerminator-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wilson.WSCrashTerminator-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSCrashTerminator-Demo.app/WSCrashTerminator-Demo";
+			};
+			name = Debug;
+		};
+		FE8BA7E91BAD72B300FDE57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WSCrashTerminator-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wilson.WSCrashTerminator-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSCrashTerminator-Demo.app/WSCrashTerminator-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE8BA7BD1BAD72B300FDE57B /* Build configuration list for PBXProject "WSCrashTerminator-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8BA7E21BAD72B300FDE57B /* Debug */,
+				FE8BA7E31BAD72B300FDE57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8BA7E41BAD72B300FDE57B /* Build configuration list for PBXNativeTarget "WSCrashTerminator-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8BA7E51BAD72B300FDE57B /* Debug */,
+				FE8BA7E61BAD72B300FDE57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8BA7E71BAD72B300FDE57B /* Build configuration list for PBXNativeTarget "WSCrashTerminator-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8BA7E81BAD72B300FDE57B /* Debug */,
+				FE8BA7E91BAD72B300FDE57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE8BA7BA1BAD72B300FDE57B /* Project object */;
+}
