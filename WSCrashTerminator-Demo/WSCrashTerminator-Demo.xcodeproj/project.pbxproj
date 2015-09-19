@@ -49,6 +49,7 @@
 		FE0C76411BAD8EDE00F7109E /* NSNumber+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+hook.m"; sourceTree = "<group>"; };
 		FE0C76431BAD8FDA00F7109E /* NSArray+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Hook.h"; sourceTree = "<group>"; };
 		FE0C76441BAD8FDA00F7109E /* NSArray+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Hook.m"; sourceTree = "<group>"; };
+		FE0C76461BADAC3500F7109E /* WSCrashTerminator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCrashTerminator.h; sourceTree = "<group>"; };
 		FE8BA7C21BAD72B300FDE57B /* WSCrashTerminator-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WSCrashTerminator-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8BA7C61BAD72B300FDE57B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE8BA7C81BAD72B300FDE57B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 				FE8BA7C91BAD72B300FDE57B /* AppDelegate.m */,
 				FE8BA7CB1BAD72B300FDE57B /* ViewController.h */,
 				FE8BA7CC1BAD72B300FDE57B /* ViewController.m */,
+				FE0C76461BADAC3500F7109E /* WSCrashTerminator.h */,
 				FE0C76311BAD841400F7109E /* NSNull+Hook.h */,
 				FE0C76321BAD841400F7109E /* NSNull+Hook.m */,
 				FE0C76401BAD8EDE00F7109E /* NSNumber+hook.h */,

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WSCrashTerminator.h"
 
 @interface ViewController ()
 
@@ -21,8 +22,10 @@
     NSMutableDictionary *mutableDictionary = [[NSMutableDictionary alloc] init];
 //    [mutableDictionary setObject:string forKey:@"key"];
 
+    NSArray *array = @[@"a"];
+    [array objectAtIndex:0];
     
-    NSDictionary *dic = [[NSDictionary alloc] initWithObjects:[NSArray arrayWithObjects:@"key", @"j", @"1", nil] forKeys:[NSArray arrayWithObjects:@"1", @"2", @"3", nil] count:3];
+//    NSDictionary *dic = [[NSDictionary alloc] initWithObjects:[NSArray arrayWithObjects:@"key", @"j", @"1", nil] forKeys:[NSArray arrayWithObjects:@"1", @"2", @"3", nil] count:3];
 
 }
 

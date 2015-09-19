@@ -19,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [NSObject aspect_hookSelector:@selector(setObject:forKey:) withOptions:AspectPositionAfter usingBlock:^{
+    [NSArray aspect_hookSelector:@selector(objectAtIndex:) withOptions:AspectPositionAfter usingBlock:^{
     
     } error:nil];
     return YES;
